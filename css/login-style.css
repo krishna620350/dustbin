@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:"dancing-bold";
+    src: url(../fonts/DancingScript-Bold.ttf);
+}
+@font-face{
+    font-family:"dancing-medium";
+    src: url(../fonts/DancingScript-Medium.ttf);
+}
+@font-face{
+    font-family:"dancing-regular";
+    src: url(../fonts/DancingScript-Regular.ttf);
+}
+@font-face{
+    font-family:"dancing-semibold";
+    src: url(../fonts/DancingScript-SemiBold.ttf);
+}
+.container{
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+        
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+        
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+        
+    }
+}
+body{
+    background-image: url("../image/bodyBackground.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+}
+.login-contant{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.login-contant .login{
+    text-align:center;
+    background-color: rgba(253, 251, 248, 0.24);
+    padding:2rem;
+    border-radius:2rem;
+    box-shadow: 10px 10px 10px rgba(97, 96, 96, 0.685);
+    width: 50%;
+}
+.login-contant .login h2{
+    font-family: "dancing-regular";
+    font-size:2rem;
+    margin-bottom: 1rem;
+}
+.login-contant .login form{
+    background-color:rgba(207, 253, 253, 0.534);
+    padding:2rem;
+    border-radius:2rem;
+    /* height:50%; */
+}
+.login-contant .login form .logni-info{
+    padding:5px;
+    margin-bottom:1rem;
+    border: 3px dashed rgb(33, 253, 33);
+}
+.login-contant .login form .logni-info label{
+    font-family: "dancing-bold";
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.login-contant .login form .logni-info input{
+    margin-top: 2px;
+    margin-bottom:2px;
+    border: none;
+    background-color:rgba(207, 253, 253, 0.534);
+    border-bottom: 2px solid green;
+    width:90%;
+    padding:5px;
+    border-radius:3rem;
+    font-family: "dancing-regular";
+    font-size:1rem;
+    color:rgb(255, 0, 0);
+    font-weight: 600;
+}
+.login-contant .login form .logni-info button{
+    padding: 5px;
+    border-radius: 3rem;
+    font-family: "dancing-regular";
+    font-size:1rem;
+    font-weight:600;
+    background-color: aliceblue;
+}
+@media (max-width:768px){
+    .login-contant{
+        width:90%;
+    }
+    .login-contant .login{
+        width:90%;
+    }
+    .login-contant .login form .logni-info input{
+        width:90%;
+    }
+}

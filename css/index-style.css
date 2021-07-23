@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:"dancing-bold";
+    src: url(../fonts/DancingScript-Bold.ttf);
+}
+@font-face{
+    font-family:"dancing-medium";
+    src: url(../fonts/DancingScript-Medium.ttf);
+}
+@font-face{
+    font-family:"dancing-regular";
+    src: url(../fonts/DancingScript-Regular.ttf);
+}
+@font-face{
+    font-family:"dancing-semibold";
+    src: url(../fonts/DancingScript-SemiBold.ttf);
+}
+.container{
+    width: 100%;
+    padding: 0px 15px;
+    margin: 0px auto;
+}
+@media (min-width:576px){
+    .container{
+        max-width: 540px;
+
+    }
+}
+@media (min-width:768px){
+    .container{
+        max-width: 720px;
+        
+    }
+}
+@media (min-width:992px){
+    .container{
+        max-width: 960px;
+        
+    }
+}
+@media (min-width:1200px){
+    .container{
+        max-width: 1152px;
+        
+    }
+}
+.contant{
+    background-color: rgba(218, 236, 252, 0.425);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+.contant h1{
+    font-family: "dancing-regular";
+    font-weight: 700;
+    text-shadow: 10px 10px 5px rgba(43, 42, 42, 0.589);
+}
+.contant .header-btn a{
+    text-decoration:none;
+    padding:5px;
+    background-color:rgba(171, 238, 250, 0.801);
+    border-radius:2rem;
+    font-family: "dancing-medium";
+    font-weight:600;
+    font-size:1rem;
+}
+body{
+    background-image: url("../image/bodyBackground.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.footer{
+    margin-top:2rem;
+    display:flex;
+    justify-content:space-around;
+}
+.footer .contact{
+    background-color: rgba(248, 178, 230, 0.267);
+}
+.footer .contact h2{
+    text-align:center;
+    padding:2px;
+    font-family: "dancing-regular";
+    color:rgb(223, 5, 252);
+    font-weight: 600;
+    font-size:2rem;
+}
+.footer .contact p{
+    padding:5px;
+    font-size:1rem;
+    color: rgb(252, 2, 169);
+}
+footer p{
+    font-family: "dancing-regular";
+    margin-top:10px;
+    text-align:center;
+}
+footer p a{
+    text-decoration:none;
+    color:rgb(255, 0, 212);
+}

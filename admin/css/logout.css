@@ -1,0 +1,117 @@
+.logout-cont{
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.logout-cont a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px dashed green;
+}
+.button input{
+    padding: 2px;
+    background-color: rgb(196, 228, 255);
+    border: 2px solid red;
+    border-radius: 8px;
+    font-size: medium;
+    font-weight: 700;
+}
+.usererror{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.usererror h2{
+    padding:2px;
+    text-align: center;
+    background-color: rgba(248, 136, 136, 0.342);
+    color: red;
+}
+.contant .header h3{
+    font-size: 1.4rem;
+    color: rgb(221, 232, 252);
+    background-color: rgba(212, 212, 212, 0.267);
+    padding: 10px;
+    border-radius: 30px;
+}
+.form-cont{
+    margin-top:1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-cont .form-category{
+    padding: 5rem;
+    background-color: rgba(200, 200, 201, 0.377);
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.479);
+    border-radius: 5rem;
+}
+.form-cont .form-category .form-input{
+    border: 2px dashed greenyellow;
+    padding: 5px;
+    margin-top: 6px;
+    position: relative;
+}
+.form-cont .form-category .form-input label{
+    font-size: 18px;
+    font-weight: 700;
+}
+.form-cont .form-category .form-input input{
+    margin-top: 0.5rem;
+    margin-bottom: .4rem;
+    width: 20rem;
+    background-color: rgba(200, 200, 201, 0.377);
+    border: none;
+    border-bottom:2px solid black ;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(2, 2, 2);
+}
+.form-cont .form-category .form-input .butn{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.form-cont .form-category .form-input .butn button{
+    padding: 5px;
+    border-radius: 2rem;
+    font-size: large;
+    background-color: rgb(225, 241, 255);
+    font-weight: 600;
+}
+.form-cont .form-category .form-input .form-control{
+    margin-top: .5rem;
+    margin-bottom: .4rem;
+    background-color: rgba(151, 151, 151, 0.377);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.form-cont .form-category .form-input .form-control option{
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-cont .form-category .form-input textarea{
+    width: 100%;
+    background-color: rgb(145, 144, 143);
+    height: 10rem;
+    margin-top: 8px;
+    border-radius: 1rem;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}

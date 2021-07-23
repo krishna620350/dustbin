@@ -1,0 +1,53 @@
+-- use blogsite
+-- CREATE TABLE role_blog(
+--     rid INT NOT NULL,
+--     role VARCHAR(30),
+--     PRIMARY KEY(rid)
+-- );
+-- insert into role_blog(rid,role) 
+-- values
+-- (1,"Admin"),
+-- (2,"User")
+-- create table users_blog(
+--     uid int not null auto_increment,
+--     name varchar(50) not null,
+--     username varchar(30) not null,
+--     email varchar(100) not null,
+--     role int not null,
+--     password varchar(100) not null,
+--     primary key(uid),
+--     foreign key(role) references role_blog(rid)
+-- );
+-- create table post_blog(
+--     pid int not null auto_increment,
+--     author varchar(30),
+--     title varchar(50),
+--     description varchar(1000),
+--     image varchar(30),
+--     Date date,
+--     Time time,
+--     primary key(pid)
+-- );
+-- create table title(
+--     tid int not null auto_increment,
+--     title_name int,
+--     primary key(tid),
+--     foreign key(title_name) references post_blog(pid)
+-- );
+-- drop table title
+-- alter table post_blog modify title int 
+-- create table category(
+--     cid int not null primary key auto_increment,
+--     cname varchar(50),
+--     catitle int,
+--     foreign key(catitle) REFERENCES title(tid)
+-- ); 
+-- create table title(
+--     tid int not null primary key,
+--     title_name varchar(50)
+-- );
+-- alter table post_blog add foreign key(title) references category(cid)
+-- alter table category
+-- drop catitle
+-- drop table title
+-- alter table category drop foreign key(catitle)
